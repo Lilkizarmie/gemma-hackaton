@@ -1,0 +1,86 @@
+[
+  {
+    "id": "maize",
+    "name": "Maize",
+    "regions": ["Oyo", "Ogun", "Kwara", "Kaduna", "Niger"],
+    "season": ["rainy"],
+    "goals": ["profit", "food_security", "low_effort"],
+    "seed_per_hectare_kg": 20,
+    "yield_per_hectare_tons": 3.5,
+    "avg_price_per_ton_ngn": 120000,
+    "base_cost_per_hectare_ngn": 90000,
+    "difficulty_score": 0.55,
+    "water_need_score": 0.6,
+    "fertilizer_profile": {
+      "npk_15_15_15_bags_per_hectare": 2,
+      "urea_bags_per_hectare": 1
+    }
+  },
+  {
+    "id": "cassava",
+    "name": "Cassava",
+    "regions": ["Oyo", "Ogun", "Edo", "Delta", "Ondo"],
+    "season": ["rainy", "dry"],
+    "goals": ["profit", "food_security", "low_effort"],
+    "seed_per_hectare_kg": 100,
+    "yield_per_hectare_tons": 10,
+    "avg_price_per_ton_ngn": 40000,
+    "base_cost_per_hectare_ngn": 70000,
+    "difficulty_score": 0.35,
+    "water_need_score": 0.45,
+    "fertilizer_profile": {
+      "npk_15_15_15_bags_per_hectare": 1
+    }
+  },
+  {
+    "id": "soybean",
+    "name": "Soybean",
+    "regions": ["Oyo", "Kwara", "Kaduna", "Niger", "Benue"],
+    "season": ["rainy"],
+    "goals": ["profit", "food_security"],
+    "seed_per_hectare_kg": 60,
+    "yield_per_hectare_tons": 2.2,
+    "avg_price_per_ton_ngn": 320000,
+    "base_cost_per_hectare_ngn": 110000,
+    "difficulty_score": 0.5,
+    "water_need_score": 0.5,
+    "fertilizer_profile": {
+      "npk_15_15_15_bags_per_hectare": 1
+    }
+  },
+  {
+    "id": "rice",
+    "name": "Rice",
+    "regions": ["Kwara", "Niger", "Kebbi", "Benue", "Kaduna"],
+    "season": ["rainy"],
+    "goals": ["profit", "food_security"],
+    "seed_per_hectare_kg": 30,
+    "yield_per_hectare_tons": 4.2,
+    "avg_price_per_ton_ngn": 380000,
+    "base_cost_per_hectare_ngn": 180000,
+    "difficulty_score": 0.75,
+    "water_need_score": 0.85,
+    "fertilizer_profile": {
+      "npk_15_15_15_bags_per_hectare": 3,
+      "urea_bags_per_hectare": 2
+    }
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "regions": ["Kaduna", "Kano", "Plateau", "Oyo"],
+    "season": ["dry", "rainy"],
+    "goals": ["profit"],
+    "seed_per_hectare_kg": 0.4,
+    "yield_per_hectare_tons": 12,
+    "avg_price_per_ton_ngn": 180000,
+    "base_cost_per_hectare_ngn": 300000,
+    "difficulty_score": 0.9,
+    "water_need_score": 0.8,
+    "fertilizer_profile": {
+      "npk_15_15_15_bags_per_hectare": 4,
+      "urea_bags_per_hectare": 2
+    }
+  }
+]
+

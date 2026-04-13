@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "RootRise Hackathon",
+    "slug": "rootrise-hackathon",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rootrisehackathon.app",
+      "config": {
+        "googleMapsApiKey": "your_api_key_here"
+      },
+      "appleTeamId": "QM7GLS82T6"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F3F1E8"
+      },
+      "package": "com.rootrisehackathon.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "your_api_key_here"
+        }
+      },
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow RootRise to use your location to center the map on your field.",
+          "locationWhenInUsePermission": "Allow RootRise to use your location to center the map on your field."
+        }
+      ]
+    ]
+  }
+}

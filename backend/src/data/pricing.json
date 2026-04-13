@@ -1,0 +1,14 @@
+{
+  "fertilizer": {
+    "npk_15_15_15_per_bag_ngn": 9000,
+    "urea_per_bag_ngn": 12000
+  },
+  "seed": {
+    "maize_per_kg_ngn": 500,
+    "cassava_per_kg_ngn": 200,
+    "soybean_per_kg_ngn": 1200,
+    "rice_per_kg_ngn": 950,
+    "tomato_per_kg_ngn": 85000
+  }
+}
+
