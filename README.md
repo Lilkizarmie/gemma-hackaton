@@ -103,7 +103,7 @@ ollama list
 ### 3. Install backend dependencies
 
 ```bash
-cd /Users/jeffery.adolor/Documents/GitHub/RootRise/gemma-hackaton/backend
+cd backend
 npm install
 ```
 
@@ -127,7 +127,7 @@ AI_MODE=mock
 ### 5. Verify the AI path
 
 ```bash
-cd /Users/jeffery.adolor/Documents/GitHub/RootRise/gemma-hackaton/backend
+cd backend
 npm run build
 npm run test:ai
 ```
@@ -137,7 +137,7 @@ If this works, the backend can reach your local Gemma model.
 ### 6. Start the backend
 
 ```bash
-cd /Users/jeffery.adolor/Documents/GitHub/RootRise/gemma-hackaton/backend
+cdbackend
 npm run dev
 ```
 
@@ -164,7 +164,7 @@ This is useful during demo testing because you can confirm:
 ### 8. Install mobile dependencies
 
 ```bash
-cd /Users/jeffery.adolor/Documents/GitHub/RootRise/gemma-hackaton/mobile
+cd mobile
 npm install
 ```
 
@@ -185,7 +185,7 @@ Notes:
 ### 10. Start the mobile app
 
 ```bash
-cd /Users/jeffery.adolor/Documents/GitHub/RootRise/gemma-hackaton/mobile
+cd mobile
 npm run start
 ```
 
@@ -233,14 +233,14 @@ That means the mobile app is healthy, but the live backend connection failed. Ch
 Backend:
 
 ```bash
-cd /Users/jeffery.adolor/Documents/GitHub/RootRise/gemma-hackaton/backend
+cd backend
 npm run dev
 ```
 
 Backend AI test:
 
 ```bash
-cd /Users/jeffery.adolor/Documents/GitHub/RootRise/gemma-hackaton/backend
+cd backend
 npm run build
 npm run test:ai
 ```
@@ -248,6 +248,6 @@ npm run test:ai
 Mobile:
 
 ```bash
-cd /Users/jeffery.adolor/Documents/GitHub/RootRise/gemma-hackaton/mobile
+cd mobile
 npm run start
 ```
