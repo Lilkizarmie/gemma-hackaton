@@ -32,8 +32,6 @@ The farmer:
 - `backend` contains the decision engine API
 - `mobile` contains the Expo mobile app
 - `architecture-plan.md` contains the implementation plan and system design
-- `submission-kit.md` contains the pitch, judging story, and technical summary
-- `demo-script.md` contains a concise demo walkthrough
 
 ## Current scope note
 
